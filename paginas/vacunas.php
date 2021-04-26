@@ -11,8 +11,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="Autores" content="CamiloQuintana-AndresPerdomo-AndresGaviria">
   <meta name="Descripción" content="VacunaciónSanitas">
-  <link rel="stylesheet" href="/5L/Proyecto/anexos/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/5L/Proyecto/anexos/css/styles.css">
+  <link rel="stylesheet" href="/5L/Proyecto/f2/anexos/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/5L/Proyecto/f2/anexos/css/styles.css">
   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
   <title>VACUNACIÓN EPS SANITAS</title>
@@ -21,13 +21,13 @@
 <body>
 
   <nav class="navbar navbar-expand-lg bg-dark">
-    <a href="/5L/Proyecto/index.php" class="nav-enlace ">Inicio</a>
-    <a href="/5L/Proyecto/paginas/diagnostico.php" class="nav-enlace ml-auto ">Diagnostico</a>
-    <a href="/5L/Proyecto/paginas/insumos.php" class="nav-enlace ml-auto">Insumos</a>
-    <a href="/5L/Proyecto/paginas/usuarios.php" class="nav-enlace ml-auto">Usuarios</a>
+    <a href="/5L/Proyecto/f2/index.php" class="nav-enlace ">Inicio</a>
+    <a href="/5L/Proyecto/f2/paginas/diagnostico.php" class="nav-enlace ml-auto ">Diagnostico</a>
+    <a href="/5L/Proyecto/f2/paginas/insumos.php" class="nav-enlace ml-auto">Insumos</a>
+    <a href="/5L/Proyecto/f2/paginas/usuarios.php" class="nav-enlace ml-auto">Usuarios</a>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link text-dark btn btn-primary py-1" href="/5L/Proyecto/paginas/iniciarsesion.php">Inicia sesión</a>
+        <a class="nav-link text-dark btn btn-primary py-1" href="/5L/Proyecto/f2/paginas/iniciarsesion.php">Inicia sesión</a>
       </li>
     </ul>
     </nav>
@@ -39,7 +39,7 @@
     <div style="text-align:center;">
       <table border="0" style="margin: 0 auto;" WIDTH="600">
         <tr>
-          <th colspan="3"><img src="/5L/Proyecto/anexos/img/plazo.gif"></th>
+          <th colspan="3"><img src="/5L/Proyecto/f2/anexos/img/plazo.gif"></th>
         </tr>
 
 
@@ -48,10 +48,10 @@
           
         </tr>
         <tr>
-          <th><a href="https://www.who.int/es/news-room/feature-stories/detail/the-oxford-astrazeneca-covid-19-vaccine-what-you-need-to-know"><img src="/5L/Proyecto/anexos/img/oxford.jpg" width="300" ><br>OXFORD</a></th>
-          <th><a href="https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/Pfizer-BioNTech.html"><img src="/5L/Proyecto/anexos/img/pfizer.jpg" width="300" ><br>PFIZER</a></th>
-          <th><a href="https://www.redaccionmedica.com/secciones/industria/vacuna-covid-coronavac-eficacia-ancianos-aviso-efecto-adverso-8392"><img src="/5L/Proyecto/anexos/img/coronaVac.jpg" width="300" ><br>CORONAVAC</a></th>
-          <th><a href="https://www.who.int/es/news-room/feature-stories/detail/the-oxford-astrazeneca-covid-19-vaccine-what-you-need-to-know?gclid=Cj0KCQjwppSEBhCGARIsANIs4p4IdHxA1CpMOPqkCXhSmTtmWkp3eUuFY8x6SsFpCwu8um9OXV8W0KYaAoRuEALw_wcB"><img src="/5L/Proyecto/anexos/img/astrazeneca.jpg" width="300" ><br>CORONAVAC</a></th>
+          <th><a href="https://www.who.int/es/news-room/feature-stories/detail/the-oxford-astrazeneca-covid-19-vaccine-what-you-need-to-know"><img src="/5L/Proyecto/f2/anexos/img/oxford.jpg" width="300" ><br>OXFORD</a></th>
+          <th><a href="https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/Pfizer-BioNTech.html"><img src="/5L/Proyecto/f2/anexos/img/pfizer.jpg" width="300" ><br>PFIZER</a></th>
+          <th><a href="https://www.redaccionmedica.com/secciones/industria/vacuna-covid-coronavac-eficacia-ancianos-aviso-efecto-adverso-8392"><img src="/5L/Proyecto/f2/anexos/img/coronaVac.jpg" width="300" ><br>CORONAVAC</a></th>
+          <th><a href="https://www.who.int/es/news-room/feature-stories/detail/the-oxford-astrazeneca-covid-19-vaccine-what-you-need-to-know?gclid=Cj0KCQjwppSEBhCGARIsANIs4p4IdHxA1CpMOPqkCXhSmTtmWkp3eUuFY8x6SsFpCwu8um9OXV8W0KYaAoRuEALw_wcB"><img src="/5L/Proyecto/f2/anexos/img/astrazeneca.jpg" width="300" ><br>CORONAVAC</a></th>
         </tr>
 
         <tr>

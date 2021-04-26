@@ -11,8 +11,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="Autores" content="CamiloQuintana-AndresPerdomo-AndresGaviria">
   <meta name="Descripción" content="VacunaciónSanitas">
-  <link rel="stylesheet" href="/5L/Proyecto/anexos/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/5L/Proyecto/anexos/css/styles.css">
+  <link rel="stylesheet" href="/5L/Proyecto/f2/anexos/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/5L/Proyecto/f2/anexos/css/styles.css">
   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
   <title>VACUNACIÓN EPS SANITAS</title>
@@ -21,11 +21,11 @@
 <body>
 
   <nav class="navbar navbar-expand-lg bg-dark">
-    <a href="/5L/Proyecto/index.php" class="nav-enlace ">Inicio</a>
-    <a href="/5L/Proyecto/paginas/diagnostico.php" class="nav-enlace ml-auto ">Diagnostico</a>
-    <a href="/5L/Proyecto/paginas/insumos.php" class="nav-enlace ml-auto">Insumos</a>
-    <a href="/5L/Proyecto/paginas/usuarios.php" class="nav-enlace ml-auto">Usuarios</a>
-    <a href="/5L/Proyecto/paginas/vacunas.php" class="nav-enlace ml-auto">Vacunas</a>
+    <a href="/5L/Proyecto/f2/index.php" class="nav-enlace ">Inicio</a>
+    <a href="/5L/Proyecto/f2/paginas/diagnostico.php" class="nav-enlace ml-auto ">Diagnostico</a>
+    <a href="/5L/Proyecto/f2/paginas/insumos.php" class="nav-enlace ml-auto">Insumos</a>
+    <a href="/5L/Proyecto/f2/paginas/usuarios.php" class="nav-enlace ml-auto">Usuarios</a>
+    <a href="/5L/Proyecto/f2/paginas/vacunas.php" class="nav-enlace ml-auto">Vacunas</a>
   </nav>
 
 
@@ -35,7 +35,7 @@
       <div class="col-sm-8 main-section">
           <div class="modal-content">
               <div class="col-12 user-img">
-                  <img src="/5L/Proyecto/anexos/img/user.png" width="100"/>
+                  <img src="/5L/Proyecto/f2/anexos/img/user.png" width="100"/>
               </div>
               <form class="col-12" th:action="@{/login}" method="get">
                   <div class="form-group" id="user-group">
