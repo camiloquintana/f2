@@ -73,6 +73,9 @@ require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\menu.php');
         <td>¿Fumas? ¿Estás expuest@ cigarro frecuentemente?</td>
         <td><input type="checkbox">SI  <input type="checkbox">NO</td>
       </tr>
+    </table>
+  </section>
+  <p> &nbsp;</p>
 </html>
       
 <?php
