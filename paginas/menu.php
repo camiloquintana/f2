@@ -19,6 +19,7 @@
     <a href="/5L/Proyecto/f2/paginas/insumos.php" class="nav-enlace ml-auto">Insumos</a>
     <a href="/5L/Proyecto/f2/paginas/usuarios.php" class="nav-enlace ml-auto">Usuarios</a>
     <a href="/5L/Proyecto/f2/paginas/vacunas.php" class="nav-enlace ml-auto">Vacunas</a>
+    <a href="/5L/Proyecto/f2/paginas/citacion.php" class="nav-enlace ml-auto ">Citas</a>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
         <a class="nav-link text-dark btn btn-primary py-1" href="/5L/Proyecto/f2/paginas/iniciarsesion.php">Inicia sesión</a>
