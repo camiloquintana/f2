@@ -36,6 +36,14 @@ nav{
     display: none;
 }
 
+.h1{
+    width: 90%;
+    height: 20%;
+    margin:auto;
+    margin-top: 50px;
+    text-align: center; 
+    font-size: 18px;
+}
 .h2{
     width: 90%;
     height: 20%;
