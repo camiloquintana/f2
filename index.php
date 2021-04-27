@@ -10,7 +10,7 @@ require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\menu.php');
       país y daremos inicio al proceso de vacunación. <br>Es muy importante mantener tus datos al día, 
       esto nos permitirá estar en contacto contigo <br> para informarte cuando sea el momento de tu 
       vacuna y resolver todas las dudas que puedas tener al respecto.
-      <p></p>
+      <p>Para consultar un punto de atención, dé click <a href="/5L/Proyecto/f2/paginas/puntosdeatencion.php">Aquí</a></p>
       <img src="/5L/Proyecto/f2/anexos/img/VACUNA.gif" id="doctor" >
     </div>            
   </section>
