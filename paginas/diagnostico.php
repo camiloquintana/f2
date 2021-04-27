@@ -19,15 +19,15 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-lg bg-dark">
-    <a href="/5L/Proyecto/f2/index.php" class="nav-enlace ">Inicio</a>
+    <a href="/5L/Proyecto/f2/index.php" class="nav-enlace ml-auto ">Inicio</a>
+    <a href="/5L/Proyecto/f2/paginas/diagnostico.php" class="nav-enlace ml-auto ">Diagnostico</a>
     <a href="/5L/Proyecto/f2/paginas/insumos.php" class="nav-enlace ml-auto">Insumos</a>
     <a href="/5L/Proyecto/f2/paginas/usuarios.php" class="nav-enlace ml-auto">Usuarios</a>
     <a href="/5L/Proyecto/f2/paginas/vacunas.php" class="nav-enlace ml-auto">Vacunas</a>
     <ul class="navbar-nav ml-auto">
-       <li class="nav-item">
-         <a class="nav-link text-dark btn btn-primary py-1" href="/5L/Proyecto/f2/paginas/iniciarsesion.php">Inicia sesión</a>
+      <li class="nav-item">
+        <a class="nav-link text-dark btn btn-primary py-1" href="/5L/Proyecto/f2/paginas/iniciarsesion.php">Inicia sesión</a>
       </li>
     </ul>
   </nav>
