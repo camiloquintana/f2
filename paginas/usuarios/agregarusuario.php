@@ -64,7 +64,7 @@ require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\conexion.php');
                       <th scope="col">TipoUsuario</th>
                       <th scope="col">Correo</th>
                       <th scope="col">Contraseña</th>
-                      
+                      <th><a href="#"><i class="fas fa-edit"></i></a> | <a href="#"><i class="fas fa-user-times"></i></a></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -72,8 +72,6 @@ require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\conexion.php');
                     </tr>
                     </tbody>
                   </table>
-                  <th><a href="/5L/Proyecto/f2/paginas/usuarios/editarusuario.php"><img src="https://image.flaticon.com/icons/png/512/84/84380.png" width="30"></a>
-                      
                 </div>    
               </div>
            </div>
