@@ -2,6 +2,7 @@
 require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\menu.php');
 ?>
 
+
   <section >
     <div class="h1"><p> Iniciar Sesion</p></div>
     <div class="modal-dialog text-center">

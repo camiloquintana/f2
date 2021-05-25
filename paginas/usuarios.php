@@ -1,6 +1,21 @@
 <?php
 require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\menu.php');
 ?>
+<?php
+$mysqli = new mysqli("localhost", "admin", "administrador", "vacunapp");
+if ($mysqli->connect_errno) {
+    echo "Fallo al conectar a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+}
+echo $mysqli->host_info . "\n";
+
+$mysqli = new mysqli("127.0.0.1", "admin", "administrador", "vacunapp", 3306);
+if ($mysqli->connect_errno) {
+    echo "Fallo al conectar a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+}
+
+echo $mysqli->host_info . "\n";
+?>
+
 
 <section>
     <script
@@ -70,8 +85,7 @@ require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\menu.php');
                     <tbody>
                     <tr>
                       <th scope="row">1</th>
-                      <td>Andres</td>
-                      <td>Perdomo</td>
+                      <td><?php  $query = "SELECT Nombre FROM usuarios"; ?></td>
                       <td>Andres717</td>
                       <td>aperdomo1@udi.edu.co</td>
                       <td>
@@ -80,7 +94,6 @@ require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\menu.php');
                     </tr>
                     <tr>
                       <th scope="row">1</th>
-                      <td>Camilo</td>
                       <td>Quintana</td>
                       <td>Camilin69</td>
                       <td>jquintana2@udi.edu.co</td>
@@ -90,7 +103,6 @@ require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\menu.php');
                     </tr>
                     <tr>
                       <th scope="row">1</th>
-                      <td>Andres</td>
                       <td>Gaviria</td>
                       <td>otakumaster777</td>
                       <td>agaviria2@udi.edu.co</td>
