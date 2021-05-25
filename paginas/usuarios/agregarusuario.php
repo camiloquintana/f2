@@ -1,6 +1,14 @@
 <?php
 require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\menu.php');
 require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\conexion.php');
+
+$Nombre = $Apellido =  $Usuario = $TipoUsu = $Correo= $Contraseña ="";
+
+  $Nombre = $_POST['Nombre'];
+  if(empty($Nombre)){
+     echo "Por favor ingrese el nombre del empleado.";
+  } 
+
 ?>
 
 <section>
@@ -38,54 +46,90 @@ require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\conexion.php');
         } );
     </script>
     
-    <div class="h1 bg-transparent"><p> Usuarios</p></div>
+    
+    <div class="h1 bg-transparent"><p>Usuarios</p></div>
     <div class="container">
       <div class="mx-auto col-sm-8 main-section" id="myTab" role="tablist">
         <ul class="nav nav-tabs justify-content-end">
           <li class="nav-item">
-          <a class="nav-link active" id="list-tab" data-toggle="tab" href="#list" role="tab" aria-controls="list" aria-selected="false">Listado de usuarios</a>
-          </li> 
+          <a class="nav-link active" id="list-tab" data-toggle="tab" href="#list" role="tab" aria-controls="list" aria-selected="false">Editar</a>
+          </li>
+          
         </ul>
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="list" role="tabpanel" aria-labelledby="list-tab">
-            <div class="card">
+              <div class="card">
               <div class="card-header">
-                <h4>Listado de usuarios</h4>
+                <h4>Agregar usuario</h4>
               </div>
               <div class="card-body">
-                <div class="table-responsive">
-                  <table id="userList" class="table table-bordered table-hover table-striped">
-                    <thead class="thead-light">
-                    <tr>
-                      <th scope="col">Id</th>
-                      <th scope="col">Nombre</th>
-                      <th scope="col">Apellido</th>
-                      <th scope="col">Usuario</th>
-                      <th scope="col">TipoUsuario</th>
-                      <th scope="col">Correo</th>
-                      <th scope="col">Contraseña</th>
-                      <th><a href="#"><i class="fas fa-edit"></i></a> | <a href="#"><i class="fas fa-user-times"></i></a></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                      </td>
-                    </tr>
-                    </tbody>
-                  </table>
-                </div>    
-              </div>
-           </div>
+                <form action="<?php echo htmlspecialchars($_SERVER["vacunapp"]) ?>" method="post">
+                  <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Nombres</label>
+                    <div class="col-lg-9">
+                      <input class="form-control" type="text" >
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Apellido </label>
+                    <div class="col-lg-9">
+                      <input class="form-control" type="text" >
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Email</label>
+                    <div class="col-lg-9">
+                      <input class="form-control" type="email">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Usuario</label>
+                    <div class="col-lg-9">
+                      <input class="form-control" type="text">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Tipo Usuario</label>
+                    <div class="col-lg-9">
+                      <input class="form-control" list="items">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Contraseña</label>
+                    <div class="col-lg-9">
+                      <input class="form-control" type="password">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Confirmar</label>
+                    <div class="col-lg-9">
+                      <input class="form-control" type="password" >
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-lg-12 text-center">
+                      <input type="submit" class="btn btn-primary" value="Guardar">
+                      <input type="reset" class="btn btn-secondary" value="Cancelar">
+                    </div>
+                  </div>
+                </form>
+                </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <p>&nbsp;</p>
+          </div>
+            </div>
+          </div>
+          </div>       
+   
+    <datalist id="items">
+        <option>Administrador</option>
+        <option>Enfermero</option>
+        <option>Médico</option>
+        <option>Administrador bodega</option>
+        <option>Paciente</option>
+    </datalist>
+    <p>&nbsp;</p>
 </section>
 
 </body>
 </html>
-
-<?php
-require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\footer.php');
-?>

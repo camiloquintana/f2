@@ -155,8 +155,7 @@ require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\conexion.php');
                   <div class="form-group row">
                     <div class="col-lg-12 text-center">
                       <input type="reset" class="btn btn-secondary" value="Cancel">
-                      <input type="button" class="btn btn-primary"
-                        value="Save Changes">
+                      <input type="submit" class="btn btn-primary"  value="Save Changes">
                     </div>
                   </div>
                 </form>
@@ -167,11 +166,11 @@ require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\conexion.php');
       </div>
     </div>
     <datalist id="items">
-    <option>Administrador</option>
-    <option>Enfermero</option>
-    <option>Médico</option>
-    <option>Almacen</option>
-    <option>Paciente</option>
+      <option>Administrador</option>
+      <option>Enfermero</option>
+      <option>Médico</option>
+      <option>Administrador bodega</option>
+      <option>Paciente</option>
   </datalist>
   <p>&nbsp;</p>
 </section>
