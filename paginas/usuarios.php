@@ -55,6 +55,7 @@ require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\conexion.php');
                       <th scope="col">Usuario</th>
                       <th scope="col">TipoUsuario</th>
                       <th scope="col">Correo</th>
+                      <th scope="col">Correo</th>
                       <th scope="col">Contraseña</th>
                       
                     </tr>
