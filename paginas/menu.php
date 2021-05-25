@@ -18,7 +18,7 @@
     <a href="/5L/Proyecto/f2/paginas/diagnostico.php" class="nav-enlace ml-auto ">Diagnostico</a>
     <a href="/5L/Proyecto/f2/paginas/insumos.php" class="nav-enlace ml-auto">Insumos</a>
     <a href="/5L/Proyecto/f2/paginas/usuarios.php" class="nav-enlace ml-auto">Usuarios</a>
-    <a href="/5L/Proyecto/f2/paginas/vacunas.php" class="nav-enlace ml-auto">Vacunas</a>
+    <a href="/5L/Proyecto/f2/paginas/vacunas.php" class="nav-enlace ml-auto">Vacunasf</a>
     <a href="/5L/Proyecto/f2/paginas/citacion.php" class="nav-enlace ml-auto ">Citas</a>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
