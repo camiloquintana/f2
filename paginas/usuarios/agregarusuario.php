@@ -2,21 +2,6 @@
 require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\menu.php');
 require_once ('C:\xampp\htdocs\5L\PROYECTO\f2\paginas\conexion.php');
 ?>
-<?php
-$mysqli = new mysqli("localhost", "admin", "administrador", "vacunapp");
-if ($mysqli->connect_errno) {
-    echo "Fallo al conectar a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-}
-echo $mysqli->host_info . "\n";
-
-$mysqli = new mysqli("127.0.0.1", "admin", "administrador", "vacunapp", 3306);
-if ($mysqli->connect_errno) {
-    echo "Fallo al conectar a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-}
-
-echo $mysqli->host_info . "\n";
-?>
-
 
 <section>
     <script
@@ -79,42 +64,14 @@ echo $mysqli->host_info . "\n";
                       <th scope="col">TipoUsuario</th>
                       <th scope="col">Correo</th>
                       <th scope="col">Contraseña</th>
-                      
+                      <th><a href="#"><i class="fas fa-edit"></i></a> | <a href="#"><i class="fas fa-user-times"></i></a></th>
                     </tr>
                     </thead>
-                    <tbody> 
-                    <tr>
-                      <th scope="row">1</th>
-                      <td><?php  $query = "SELECT Nombre FROM usuarios"; ?></td>
-                      <td>Andres717</td>
-                      <td>aperdomo1@udi.edu.co</td>
-                      <td>
-                        <a href="#"><i class="fas fa-edit"></i></a> | <a href="#"><i class="fas fa-user-times"></i></a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Quintana</td>
-                      <td>Camilin69</td>
-                      <td>jquintana2@udi.edu.co</td>
-                      <td>
-                        <a href="#"><i class="fas fa-edit"></i></a> | <a href="#"><i class="fas fa-user-times"></i></a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Gaviria</td>
-                      <td>otakumaster777</td>
-                      <td>agaviria2@udi.edu.co</td>
-                      <td>
-                        <a href="#"><i class="fas fa-edit"></i></a> | <a href="#"><i class="fas fa-user-times"></i></a>
-
+                    <tbody>
                       </td>
                     </tr>
                     </tbody>
                   </table>
-                  <th><a href="/5L/Proyecto/f2/paginas/usuarios/editarusuario.php"><img src="https://image.flaticon.com/icons/png/512/84/84380.png" width="30"></a>
-                      
                 </div>    
               </div>
            </div>

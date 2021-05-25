@@ -14,7 +14,7 @@
 
 <body style="background-color:#a0e8f8">
   <nav class="navbar navbar-expand-lg">
-    <a href="/5L/Proyecto/f2/index.php" class="nav-enlace ml-auto ">Inicio</a>
+    <a href="/5L/Proyecto/f2/index.php" class="nav-enlace ml-auto">Inicio</a>
     <a href="/5L/Proyecto/f2/paginas/diagnostico.php" class="nav-enlace ml-auto ">Diagnostico</a>
     <a href="/5L/Proyecto/f2/paginas/insumos.php" class="nav-enlace ml-auto">Insumos</a>
     <a href="/5L/Proyecto/f2/paginas/usuarios.php" class="nav-enlace ml-auto">Usuarios</a>
